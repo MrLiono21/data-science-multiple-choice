@@ -1,0 +1,94 @@
+/* Set the background color of the entire screen to navy blue */
+body {
+    background-color: #1e3557; /* Navy blue background color */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Add a default font-family */
+}
+
+/* Add spacing between choice buttons */
+#choices button {
+    margin-bottom: 3px;
+}
+
+/* Center-align the choice buttons */
+#choices {
+    text-align: left; /* Adjust text alignment to the left */
+    display: flex; /* Use flexbox to stack buttons vertically */
+    flex-direction: column; /* Stack buttons in a column */
+    align-items: flex-start; /* Align buttons to the left within the column */
+}
+
+/* Apply Materialize CSS styles to choice buttons */
+#choices button {
+    background-color: #1e3557; /* Navy blue background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Add padding for better button appearance */
+}
+
+.btn {
+    background-color: #0077c0; /* Example color for the Next button */
+    color: white;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2px; /* Add spacing between Donate and Next buttons */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* CSS for the choices container */
+.choices-container {
+    text-align: center; /* Center-align the content */
+    margin-bottom: 10px; /* Add space between choices and button */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Add custom styling to the feedback message */
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.donate-button {
+    background-color: yellow;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px; /* Add spacing between Donate and Next buttons */
+}
+
+/* Hover effect (optional) */
+.donate-button:hover {
+    background-color: #ffcc00;
+}
+
+
+/* Completion bar styles */
+#completion-bar-container {
+    width: 100%;
+    background-color: #ddd; /* Background color of the completion bar container */
+    height: 10px; /* Height of the completion bar */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  #completion-bar {
+    width: 0; /* Initial width is 0% */
+    height: 100%;
+    background-color: #0077c0; /* Color of the completion bar */
+    transition: width 0.5s; /* Smooth animation for width change */
+  }
+  
